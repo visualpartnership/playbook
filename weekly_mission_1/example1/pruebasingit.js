@@ -1,1 +1,0 @@
-console.log("Esta es uina prueba de git sin tenerlo abierto")
