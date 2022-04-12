@@ -29,4 +29,4 @@ const myModule = (() => {
 
 console.log(myModule)
 
-//ahora veo necesario agregar esto al main
+//ahora veo necesario agregar esto al hola
