@@ -1,0 +1,35 @@
+[33mcommit beb261ffb230c2833667f3c10d5d0ebaebc6303b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: fernandodelafuente11 <fernando.delafuenteq@gmail.com>
+Date:   Sat Apr 9 20:41:23 2022 -0500
+
+    practica common js, ESM, export, import, require
+
+[33mcommit 832d9ffed7bc86eb7672f93a75fdd31572ec668c[m
+Author: fernandodelafuente11 <fernando.delafuenteq@gmail.com>
+Date:   Sat Apr 9 18:14:59 2022 -0500
+
+    primeros-ejercicios
+
+[33mcommit 7ee04feb823c71ead8664e6e0e8112a88904fc63[m
+Author: Fernando de Lafuente <78807746+Lfer1111@users.noreply.github.com>
+Date:   Sat Apr 9 16:02:18 2022 -0500
+
+    Update README.md
+
+[33mcommit efa4c56cc63888d64657f91412f287ab14234269[m
+Author: carlogilmar <carlogilmar12@gmail.com>
+Date:   Sun Mar 20 00:56:39 2022 -0600
+
+    Adding folders
+
+[33mcommit 67740ad7d2da98800b095fc979c27a3f0f869d5e[m
+Author: Carlo Gilmar <carlogilmar12@gmail.com>
+Date:   Sun Mar 20 00:53:57 2022 -0600
+
+    Update README.md
+
+[33mcommit 99e8157ced34b166740b272bd843c88be88f7ae8[m
+Author: Carlo Gilmar <carlogilmar12@gmail.com>
+Date:   Sun Mar 20 00:52:31 2022 -0600
+
+    Initial commit
