@@ -8,6 +8,8 @@ const scores12 = [
 
 const score_less_than_80 = scores12.filter((elemento) => elemento.score > 80)
   console.log("Ejemplo12")
+
+
  
-  const letraInicial = score_less_than_80.map((name) => name)
+  const letraInicial = score_less_than_80.map((elemento) => elemento.name)
   console.log(letraInicial)
