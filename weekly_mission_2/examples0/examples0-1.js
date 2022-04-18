@@ -9,3 +9,4 @@ console.log("--------------------------------------------")
 const myObject = {} // Esto es un objeto vacío
 console.log("Ejemplo 1: Esto es un objeto vacío")
 console.log(myObject)
+
