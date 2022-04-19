@@ -6,10 +6,6 @@ const scores12 = [
     { name: 'J', score: 100 },
   ]
 
-const score_less_than_80 = scores12.filter((elemento) => elemento.score > 80)
-  console.log("Ejemplo12")
-
-
- 
+  const score_less_than_80 = scores12.filter((elemento) => elemento.score > 80)
   const letraInicial = score_less_than_80.map((elemento) => elemento.name)
   console.log(letraInicial)
