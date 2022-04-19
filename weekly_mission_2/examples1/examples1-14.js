@@ -2,7 +2,7 @@ console.log("Operadores")
 
 console.log("--------------------------------------------------------")
 
-console.log("Ejemplo 4: Uso de some")
+console.log("Ejemplo 14: Uso de some")
 console.log("este método validará todos los elementos de la lista")
 console.log("y si alguno cumple con la validación indicada, regresará true, de lo contrario será false.")
 
