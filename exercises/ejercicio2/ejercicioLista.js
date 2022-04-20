@@ -70,9 +70,24 @@ explorers.forEach((elemento) => console.log(elemento.name))
 
 explorers.forEach((elemento) => console.log(elemento.stack))
 
-//Crea una nueva lista con las listas de stacks de cada explorer, usa MAP
+//+++ imprime stack sin noombre duda+++ Crea una nueva lista con las listas de stacks de cada explorer, usa MAP
+
+const lista = explorers.map(function(list){ return list.stack })
+
+console.log(lista)
+
 //Obtén la lista de explorers que tengan en su stack "js", usa FILTER (para validar un elemento en un lista se usa el método includes)
+
+const v2 = explorers.filter((x) =>
+x.stack.includes("js")
+
+)
+v2.forEach(x => console.log(x.name));
+
 //Busca el primer explorer que sea de la CDMX, usa FIND
+
+
+
 //Obtén la suma de todos los exercises_completed, usa REDUCE
 //Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME
 //Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding como true. Usa EVERY.
