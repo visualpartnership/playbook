@@ -7,6 +7,7 @@ export default class Pokemon{
         this.name = name
         this.type = type
         this.age = age
+        this.attacks = []
     }
     get getAttacks(){
         return this.attacks
