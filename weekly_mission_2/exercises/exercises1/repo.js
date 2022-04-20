@@ -1,3 +1,7 @@
+//Modelado de información a Objeto JS
+
+//Modelado de GitHub => repo
+
 const repo = {
     name: "LaunchX",
     author: "GloriaCoralCerecedo",
