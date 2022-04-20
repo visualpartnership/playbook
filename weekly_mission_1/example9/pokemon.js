@@ -1,9 +1,13 @@
-export default class Pok {
-    constructor (Pokemon) {
-      this.Pokemon = Pokemon
-    }
-    sayHello(Message){
-        console.sayHello(`[${this.Pokemon}] ${Message}`)
-    }
-
+class Pokemon {
+  constructor (name) {
+      this.name = name
+  }
+  sayHello() {
+  console.log(`Mi pokemon ${this.name} te saluda`)
+  }
+  sayMessage(msg) {
+    console.log(`Mi pokemon ${this.name} dice: ${msg}`)
+  }
 }
+
+module.exports = Pokemon
