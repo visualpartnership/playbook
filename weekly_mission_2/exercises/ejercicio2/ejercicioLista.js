@@ -64,17 +64,18 @@ const explorers = [
   
 //Imprime el nombre (propiedad name) de cada explorer en la lista, usa FOR EACH
 
-explorers.forEach((elemento) => console.log(elemento.name))
+explorers.forEach((elemento) => console.log("Nombre: " + elemento.name))
 
 //Imprime el stack de cada explorer, usa FOR EACH
 
-explorers.forEach((elemento) => console.log(elemento.stack))
+explorers.forEach((elemento) => console.log("Todo sus stack: " + elemento.name + " " + elemento.stack))
 
 //+++ imprime stack sin noombre duda+++ Crea una nueva lista con las listas de stacks de cada explorer, usa MAP
 
 const lista = explorers.map(function(list){ return list.stack })
+explorers.forEach((elemento) => console.log("Nombre: " + elemento.name + " " + lista))
 
-console.log(lista)
+
 
 //Obtén la lista de explorers que tengan en su stack "js", usa FILTER (para validar un elemento en un lista se usa el método includes)
 
@@ -82,12 +83,16 @@ const v2 = explorers.filter((x) =>
 x.stack.includes("js")
 
 )
-v2.forEach(x => console.log(x.name));
+v2.forEach(x => console.log("Tiene stack JS: " + x.name));
 
 //Busca el primer explorer que sea de la CDMX, usa FIND
 
-
+const v3 = explorers.find(x => {return x.city === "CDMX"})
+console.log("Primer resultado CDMX: " + v3.name)
 
 //Obtén la suma de todos los exercises_completed, usa REDUCE
+
+const v4 = explorers.reduce((acc, e ) => { return acc + e,0})
+console.log(v4)
 //Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME
 //Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding como true. Usa EVERY.
