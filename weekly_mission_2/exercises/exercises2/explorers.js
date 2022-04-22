@@ -74,5 +74,3 @@ console.log("********************************************")
 explorers.forEach(stackExplorer => console.log(stackExplorer.stack))
 console.log("--------------------------------------------")
 
-console.log("***Ejercicio 2, punto 2***")
-
