@@ -82,3 +82,11 @@ const listStackExplorer = explorers.map((stackExplorer) => stackExplorer.stack)
 console.log(listStackExplorer)
 console.log("--------------------------------------------")
 
+console.log("***Ejercicio 2, punto 4***")
+/*Obtén la lista de explorers que tengan en su stack "js", 
+usa FILTER (para validar un elemento en un lista se usa 
+el método includes)*/
+console.log("********************************************")
+const filterStackExplorer = explorers.filter((stackExplorer) => stackExplorer.stack.includes('js'))
+console.log(filterStackExplorer)
+console.log("--------------------------------------------")
