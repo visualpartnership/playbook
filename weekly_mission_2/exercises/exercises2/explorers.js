@@ -105,3 +105,13 @@ console.log("********************************************")
 const resultExercises_completed = explorers.reduce((acc, exercise) => acc + exercise.exercises_completed, 0)
 console.log("La suma de todos los ejercicios completados es: " + resultExercises_completed)
 console.log("--------------------------------------------")
+
+console.log("***Ejercicio 2, punto 7***")
+/*Obtén la validación si al menos uno de los explorers 
+tiene la propiedad exercisesFinished en frontend como true, 
+usa SOME*/
+console.log("********************************************")
+const validateExplorer = explorers.some((explorer) => explorer.missions.onboarding.exercisesFinished === true)
+const validateExplorer0 = explorers.some((explorer) => explorer.missions.frontend.exercisesFinished === true)
+console.log("Onboarding: " + validateExplorer + " Frontend: " + validateExplorer0)
+console.log("--------------------------------------------")
