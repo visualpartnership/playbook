@@ -98,3 +98,10 @@ console.log("********************************************")
 const findExplorer = explorers.find(firstExplorer => firstExplorer.city === "CDMX")
 console.log(findExplorer)
 console.log("--------------------------------------------")
+
+console.log("***Ejercicio 2, punto 6***")
+/*Obtén la suma de todos los exercises_completed, usa REDUCE*/
+console.log("********************************************")
+const resultExercises_completed = explorers.reduce((acc, exercise) => acc + exercise.exercises_completed, 0)
+console.log("La suma de todos los ejercicios completados es: " + resultExercises_completed)
+console.log("--------------------------------------------")
