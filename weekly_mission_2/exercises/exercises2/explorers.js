@@ -74,3 +74,11 @@ console.log("********************************************")
 explorers.forEach(stackExplorer => console.log(stackExplorer.stack))
 console.log("--------------------------------------------")
 
+console.log("***Ejercicio 2, punto 3***")
+/*Crea una nueva lista con las listas de stacks 
+de cada explorer, usa MAP*/
+console.log("********************************************")
+const listStackExplorer = explorers.map((stackExplorer) => stackExplorer.stack)
+console.log(listStackExplorer)
+console.log("--------------------------------------------")
+
