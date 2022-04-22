@@ -59,6 +59,12 @@ const explorers = [
     }
    ]
 
+console.log("***Ejercicio 2.1***")
+/* Imprime el nombre (propiedad name) 
+de cada explorer en la lista, usa FOR EACH*/
+console.log("********************************************")
+explorers.forEach(nameExplorer => console.log(nameExplorer.name))
+console.log("--------------------------------------------")
 /*
 
     1.- Imprime el nombre (propiedad name) de cada explorer en la lista, usa FOR EACH
