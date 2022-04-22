@@ -78,7 +78,7 @@ console.log("***Ejercicio 2, punto 3***")
 /*Crea una nueva lista con las listas de stacks 
 de cada explorer, usa MAP*/
 console.log("********************************************")
-const listStackExplorer = explorers.map((stackExplorer) => stackExplorer.stack)
+const listStackExplorer = explorers.map(stackExplorer => stackExplorer.stack)
 console.log(listStackExplorer)
 console.log("--------------------------------------------")
 
@@ -87,6 +87,14 @@ console.log("***Ejercicio 2, punto 4***")
 usa FILTER (para validar un elemento en un lista se usa 
 el método includes)*/
 console.log("********************************************")
-const filterStackExplorer = explorers.filter((stackExplorer) => stackExplorer.stack.includes('js'))
+const filterStackExplorer = explorers.filter(stackExplorer => stackExplorer.stack.includes('js'))
 console.log(filterStackExplorer)
+console.log("--------------------------------------------")
+
+console.log("***Ejercicio 2, punto 5***")
+/*Busca el primer explorer que sea de la CDMX, usa FIND*/
+console.log("********************************************")
+// const findExplorer = explorers.find(firstExplorer => firstExplorer.city.includes('CDMX'))
+const findExplorer = explorers.find(firstExplorer => firstExplorer.city === "CDMX")
+console.log(findExplorer)
 console.log("--------------------------------------------")
