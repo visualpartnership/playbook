@@ -1,10 +1,10 @@
 // Convirtiendo objeto user a definición de clase User
 
 export default class User{
-    constructor(name, lastname, nickname, bio, age, birthday){
+    constructor(name, lastName, nickName, bio, age, birthday){
     this.name = name
-    this.lastname = lastname
-    this.nickname = nickname
+    this.lastName = lastName
+    this.nickName = nickName
     this.bio = bio
     this.age = age
     this.birthday = birthday
