@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/jest",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
     "start": "node index.js"
   },
   "author": "",
