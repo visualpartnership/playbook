@@ -12,7 +12,7 @@ const repo = {
     issues_open: 10,
     issues_close: 10,
     getTotalIssues: function() {
-        return this.issues_open + this.issues_open
+        return this.issues_open + this.issues_close
     },
     getGeneralInfo: function(){
         return `This repository ${this.name} was created by ${this.author}`
