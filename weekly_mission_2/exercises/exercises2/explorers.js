@@ -120,6 +120,8 @@ console.log("***Ejercicio 2, punto 8***")
 la propiedad isFinished del onboarding como true. 
 Usa EVERY.*/
 console.log("********************************************")
+// const validateAllExplorer = explorers.every((explorer) => explorer.missions.onboarding.isFinished === 'true')
+// const validateAllExplorer = explorers.every((explorer) => explorer.missions.onboarding.isFinished === true)
 const validateAllExplorer = explorers.every((explorer) => typeof explorer.missions.onboarding.isFinished === 'true')
 console.log("Onboarding: " + validateAllExplorer)
 console.log("--------------------------------------------")
