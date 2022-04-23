@@ -14,7 +14,7 @@ console.log("********************************************")
 console.log(Issue)
 console.log("--------------------------------------------")
 const issue1 = new Issue("Modelado Información a Objetos JS", "LaunchX-InnovaccionVirtual","OPEN", 50, 
-['Modelado', ' Objetos', ' JS'], "GloriaCoralCerecedo","20 de abril del 2022 a las 18:23 p.m"
+['Modelado', ' Objetos', ' JS'], "GloriaCoralCerecedo","20 de april 2022 a las 18:23 p.m"
     )
 console.log(issue1)
 console.log("////////////////////////////////////////////")
