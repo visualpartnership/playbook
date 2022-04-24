@@ -14,6 +14,6 @@ export default class Profile{
         return `The user ${this.name} is of ${this.location}`
     }
     getGeneralInfo(){
-        return `The data of profile of ${this.name} ${this.lastName} are: email ${this.email}, phone ${this.phone} and her number of travels is ${this.myNumtravels}`
+        return `The data of profile of ${this.name} ${this.lastName} are: email ${this.email}, phone ${this.phone} and her number of travels is ${this.numTravels}`
     }
 }
