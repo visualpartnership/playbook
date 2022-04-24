@@ -11,7 +11,7 @@ export default class User{
     }
 
     getUsernameAndBio(){
-        return `This username ${this.username} show in his/her bio ${this.bio} `
+        return `This username ${this.username} show in his/her bio: ${this.bio} `
     }
     getNameAndAge(){
         return `This user ${this.name} have ${this.age} years`
