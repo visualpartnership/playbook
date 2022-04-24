@@ -8,7 +8,7 @@ export default class Hashtag{
     }
 
     getGeneralInfo(){
-        return `This # ${this.word} have ${this.numTweetsLastHour} of tweets in the last our`
+        return `This # ${this.word} have ${this.numTweetsLastHour} of tweets in the last hour`
     }
     getPhrase(){
         return this.phrase
