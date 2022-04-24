@@ -7,7 +7,7 @@ const hashtag = {
     phrase: "MusicIsLove",
     numTweetsLastHour: 2000,
     getGeneralInfo: function(){
-        return `This # ${this.word} have ${this.numTweetsLastHour} of tweets in the last our`
+        return `This # ${this.word} have ${this.numTweetsLastHour} of tweets in the last hour`
     },
     getPhrase: function(){
         return this.phrase
