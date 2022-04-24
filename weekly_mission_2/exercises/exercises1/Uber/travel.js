@@ -13,7 +13,7 @@ const travel = {
         return this.dateCreated
     },
     getGeneralInfo: function(){
-        return `${this.name}, schedule a Uber in the date and hour ${this.dateCreated}, it cost is ${this.price} pesos and ye type uber is ${this.typeUber}`
+        return `${this.name}, schedule a Uber in the date and hour ${this.dateCreated}, it cost is ${this.price} pesos and the type uber is ${this.typeUber}`
     }
 }
 console.log(travel)
