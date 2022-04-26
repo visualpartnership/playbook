@@ -15,4 +15,4 @@ Proyectos desarrollados en la semana 3:
 
  **Launch X Node JS** Imagen de LaunchX 
 
-![banner](C:\Users\USUARIO\Pictures)
+![banner](https://github.com/JibhranLimon96/playbook/blob/0e3de66b3dcb1da57178fdd47b89c68bb0b78b36/weekly_mission_1/165124418-8396bcb.png)
