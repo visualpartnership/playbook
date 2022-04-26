@@ -10,3 +10,5 @@ Proyectos desarrollados en la semana 3:
 |`twitter`|3, 4, 5|[Link al repo](https://github.com/JibhranLimon96/twitter-Jibhran.git)|
 |`express_basic`|6|[Link al repo](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS)|
 |`express_api`|7|[Link al repo](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS)|
+
+![banner](https://user-images.githubusercontent.com/17634377/155241139-a345385a-7528-4aab-ae9a-9ed094d39250.png)
