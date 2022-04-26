@@ -3,6 +3,6 @@ const MissionCommander = require('./../app/missionCommander');
 describe("Unit Tests for Mission Commander Class", () => {
     test('Create a mission commander objet', () => {
         const myMissionCommander = new MissionCommander("Woopa")
-        expect(result).toBe(10);
+        expect(myMissionCommander.name).toBe("Woopa");
     });
 })
