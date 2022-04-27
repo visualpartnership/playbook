@@ -6,6 +6,10 @@ class Spiderman{
         this.movies = movies;
         this.studio = studio;
     }
+    getInfo () {
+        // console.log(`Hey, I'm ${this.name} from ${this.studio} studio`)
+        return (`Hey, I'm ${this.actor} from ${this.studio} studio`)
+    }
 
 
 
