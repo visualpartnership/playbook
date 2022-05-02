@@ -12,9 +12,11 @@ class UserService {
     static updateUserUsername(user, username){
         user.setUsername = username
     }
-    static getAllUsernames([user1, user2, user3]){
-        let usernames = [user1.username, user2.username, user3.username]
-        return usernames
+    static getAllUsernames(users){
+       /* let usernames = [user1.username, user2.username, user3.username]
+        return usernames */
+        const usersUsernames = users.map( user => user.username)
+        return usersUsernames
     }
 }
 
