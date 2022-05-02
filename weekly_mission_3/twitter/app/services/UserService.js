@@ -1,4 +1,4 @@
-const User = require('../../twitter/app/models/user')
+const User = require('../models/user')
 
 class UserService {
     static create(id, username, name){

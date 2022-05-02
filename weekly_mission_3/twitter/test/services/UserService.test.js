@@ -1,4 +1,4 @@
-const UserService = require('../../app/UserService')
+const UserService = require('./../../app/services/UserService')
 
 describe("Tests for UserService", () => {
     test("1. Create a new user using the UserService", () => {
